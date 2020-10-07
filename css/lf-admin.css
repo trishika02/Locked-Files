@@ -1,0 +1,27 @@
+.meta-row.lf-meta-row {
+    margin-bottom: 20px;
+}
+input#student_certificate:disabled, input#passsword-show:disabled {
+    border: 1px solid #0171a1;
+    background: #f3f5f6;
+    color: #246e86;
+    box-shadow: inset 1px 1px 4px #6b6b6b;
+    width: 50%;
+}
+
+.locked-files-admin-wrap {
+    position: relative;
+}
+div#lf-loading-image {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 999999;
+    top: 0;
+    left: 0;
+    background-size: 100px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #ffffffba;
+}

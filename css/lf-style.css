@@ -1,0 +1,77 @@
+.lf-row {
+    text-align: center;
+    margin: 50px;
+    box-sizing: border-box;
+    border: 1px solid #eaeaea;
+    padding: 20px;
+    position: relative;
+}
+
+.locked-student-id-wrap {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.locked-student-pass {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+h1.lf-heading {
+    color: #b51d21;
+    font-family: 'Muli',sans-serif;
+}
+
+input#lf-student-id {
+    margin-bottom: 10px;
+}
+.lf-results {
+    margin: 20px 0px;
+    border: 3px solid #b51d21;
+    font-size: 25px;
+    padding: 16px;
+    text-align: center;
+    color: red;
+}
+a.lf-download-file:before {
+    content: '\ead6';
+    font-family: "fontello";
+   color: red;
+    margin-right: 5px;
+}
+.lf-results {
+    border: 3px solid #b51d21;
+    color: red;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 20px;
+    display: none;
+}
+a.lf-download-file {
+    font-size: 20px;
+    color: red;
+}
+#lf-loading-check, #lf-loading-file{
+    background-image:url('http://mentors.com.bd/education/wp-content/uploads/2020/10/35.gif');
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 999999;
+    top: 0;
+    left: 0;
+    background-size: 100px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #e2e2e2ba;
+}
+@media screen and (max-width: 680px) {
+h1.lf-heading {
+    font-size: 19px;
+    line-height: 27px;
+}
+
+}
